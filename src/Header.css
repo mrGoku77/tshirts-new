@@ -1,0 +1,15 @@
+.navbar{
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    left: 0px;
+    top: 95px;
+    background-color: rgb(255, 220, 174);
+}
+
+.navbar2{
+  justify-content: space-around;
+   display: flex;
+   list-style-type: none;
+   
+}
