@@ -1,0 +1,39 @@
+.Showitems-listMWK {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:60px;
+    position:absolute;
+    top:80px;
+    left: 338px;
+   
+  }
+ 
+  .Showitems-cardMWK {
+    background-color: #e7e7e7;
+    padding: 20px;
+    border-radius: 4px;
+    width: 226px;
+    height: 360px;
+  }
+ 
+  .Showitems-cardMWK img {
+    width: 226px;
+    height: 295px;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: .3s ease-in;
+  }
+  
+  .Showitems-cardMWK h3 {
+    position:relative;
+    left: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+ 
+  .Showitems-cardMWK p {
+    margin-top: 5px;
+    font-size: 15px;
+    color: #ff0000;
+  }
